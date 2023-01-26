@@ -1,0 +1,40 @@
+
+.soon {
+    background-image: url("../images/bg-header-desktop.png");
+    width: 100vw;
+    height: 40vh;
+    text-align: center;
+}
+
+.soon img {
+    margin-top: 15vh;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 29px;
+    color: #181818;
+    margin-bottom: 18px;
+}
+
+.title p {
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    border-radius: 35px;
+    color: #fff;
+}
+
+.mac {
+    background-color: green;
+}
+
+.ios {
+    background-color: tomato;
+}
