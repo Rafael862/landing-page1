@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-.title h1 {
+.titleh1 {
     font-size: 29px;
     color: #181818;
     margin-bottom: 18px;
@@ -22,6 +22,7 @@
 
 .title p {
     margin-bottom: 30px;
+    color: #808080;
 }
 
 button {
@@ -31,12 +32,41 @@ button {
     color: #fff;
 }
 
+.titleh1 {
+    font-size: 29px;
+    color: #181818;
+    margin-bottom: 18px;
+}
+
 .mac {
-    background-color: green;
+    background-color: #6b6cdf;
 }
 
 .ios {
-    background-color: tomato;
+    background-color: #26bba4;
+}
+.grid {
+    display: grid;
+}
+
+.grid-template-columns-1 {
+	grid-template-columns: 1fr 1fr;
+}
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.item2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.imagecomputer {
+    width: 270px;
+    height: 250px;
 }
 
 /* PRODUCTIVY */
