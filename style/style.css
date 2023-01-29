@@ -20,7 +20,7 @@
     margin-bottom: 18px;
 }
 
-.title p {
+.title p, p {
     margin-bottom: 30px;
     color: #808080;
 }
@@ -54,20 +54,34 @@ button {
 }
 .item {
 	margin: 5px;
-	background: tomato;
 	text-align: center;
 	font-size: 1.5em;
+}
+.imagecomputerposition {
+    padding: auto;
 }
 
 .item2 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    text-align: left;
+
 }
 
 .imagecomputer {
-    width: 270px;
-    height: 250px;
+    width: 30vw;
+    margin-left: 60px;
+    /*height: 250px;*/
 }
+
+.access-clipboard {
+    text-align: center;
+}
+
+.image-devices {
+    width: 70vw;
+}
+
 
 /* PRODUCTIVY */
 
